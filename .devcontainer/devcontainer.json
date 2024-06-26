@@ -1,7 +1,14 @@
 {
-	"name": "C# (.NET)",
+	"name": "Api pagination",
     "build":{
         "dockerfile": "Dockerfile",
         "context": ".."
-    }
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"github.vscode-github-actions"
+			]
+		}
+	}
 }
